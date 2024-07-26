@@ -1,0 +1,100 @@
+html {
+    background: #999994 url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg) no-repeat;
+}
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.nav {
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff2f;
+}
+.company p{
+    color: #000000;
+}
+.front {
+    background-color: #ffffff2f;
+    color: white
+}
+.front h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Tahoma, sans-serif;
+}
+.front h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr {
+    width: 1000;
+}
+.container {
+    display: flexbox;
+    flex-direction: column;
+    text-wrap: wrap;
+    color: #ffffff;
+    margin-top: 450px;
+}
+.card {
+    background-color: #000000;
+}
+.reverse-card {
+    background-color: #303030;
+}
+.third-background {
+    background-color: #505050;
+}
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.reverse-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.header  h2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+.reverse-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.picture {
+    display: flex;
+    justify-content: flex-end;
+}
+.picture img {
+    width: 300px; /* Adjust the width as needed */
+    height: 250px;
+}
+.reverse-picture {
+    display: flex;
+    justify-content: flex-start;
+}
+.reverse-picture img {
+    width: 300px; /* Adjust the width as needed */
+    height: 250px;
+}
+.third {
+    display: flex;
+    justify-content: flex-end;
+}
+.third img {
+    width: 300px; /* Adjust the width as needed */
+    height: 250px
+}
